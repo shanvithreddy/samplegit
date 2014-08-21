@@ -27,13 +27,14 @@
         android:layout_centerVertical="true"
         android:text="TextView" />
 
-    <RadioButton
-        android:id="@+id/radioButton1"
+    <CheckBox
+        android:id="@+id/checkBox1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
         android:layout_below="@+id/textView2"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="75dp"
-        android:text="RadioButton" />
+        android:layout_marginRight="28dp"
+        android:layout_marginTop="90dp"
+        android:text="CheckBox" />
 
 </RelativeLayout>
